@@ -18,4 +18,9 @@
 %define pixel_ratio 1.0
 
 %include droid-config-common.inc
+
+# Disable ofono on skipjack
+%define remove_modem 1
+Provides: ofono-configs
+
 %include droid-configs-device/droid-configs.inc

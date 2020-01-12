@@ -7,6 +7,7 @@ Requires:
 - droid-hal-skipjack
 - droid-hal-skipjack-img-boot
 - droid-hal-skipjack-kernel-modules
+- droid-hal-skipjack-detritus
 - droid-config-skipjack-sailfish
 - droid-config-skipjack-pulseaudio-settings
 - droid-config-skipjack-policy-settings
@@ -77,6 +78,9 @@ Requires:
 # NFC for devices using Android 8 or newer as base
 - nfcd-binder-plugin
 - jolla-settings-system-nfc
+
+# Bluetooth
+- bluebinder
 
 Summary: Jolla HW Adaptation skipjack
 
